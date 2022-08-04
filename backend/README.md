@@ -27,7 +27,7 @@ pip install -r requirements.txt
 With Postgres running, create a `trivia` database:
 
 ```bash
-createbd trivia
+createdb trivia_app
 ```
 
 Populate the database using the `trivia.psql` file provided. From the `backend` folder in terminal run:
@@ -92,7 +92,7 @@ You will need to provide detailed documentation of your API endpoints including 
 
 ## Testing
 
-Write at least one test for the success and at least one error behavior of each endpoint using the unittest library.
+Write at least one test for the success and at least one error behavior of each endpoint using the unit test library.
 
 To deploy the tests, run
 

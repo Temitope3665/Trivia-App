@@ -81,15 +81,15 @@ class TriviaTestCase(unittest.TestCase):
 
     def test_create_question(self):
         res = self.client().post('/api/questions',json={
-        "question":"what is your name",
-        "answer":"chidera",
-        "difficulty":1,
+        "question":"what is your favourite pet's name",
+        "answer":"cat",
+        "difficulty":2,
         "category":2
         })
 
         data = json.loads(res.data)
         self.assertEqual(res.status_code,201)
-        self.assertEqual(data["message"],"success creating new question")
+        self.assertEqual(data["message"],"success creating a new question")
     
     def test_400_create_question(self):
         res = self.client().post('/api/questions',json={})

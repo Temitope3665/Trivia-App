@@ -62,18 +62,25 @@ $ curl -X GET http://127.0.0.1:5000/api/questions?page=1
 "current_category":Null,
 "questions": [
     {
-      "answer": "David Mark",
-      "category": 5,
-      "difficulty": 4,
+      "answer": "Wole James",
+      "category": 2,
+      "difficulty": 3,
       "id": 2,
-      "question": "Who is the first man to win a nobel prize in physics?"
+      "question": "Who is the first man to win a nobel prize in english in Nigeria?"
     },
     {
-      "answer": "Ronaldo",
+      "answer": "Mane",
       "category": 5,
-      "difficulty": 4,
-      "id": 4,
+      "difficulty": 3,
+      "id": 5,
       "question": "Who is the best football player in the world?"
+    },
+      {
+      "answer": "South Africa",
+      "category": 3,
+      "difficulty": 4,
+      "id": 1,
+      "question": "Where is the oldest moutain located at?"
     },
 
  [...]
